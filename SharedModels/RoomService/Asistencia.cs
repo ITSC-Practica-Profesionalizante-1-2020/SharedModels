@@ -1,7 +1,7 @@
 using SharedModels;
 using System;
 
-public class Asistencia:EntityBase
+public class Asistencia : EntityBase
 {
     public int Id_Asistencia { get; set; }
     public Participante Participante { get; set; }
