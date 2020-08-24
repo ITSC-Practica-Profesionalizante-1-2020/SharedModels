@@ -5,8 +5,8 @@ namespace SharedModels.StreamingService
 {
 	public class VideoRoom : EntityBase
 	{
-		public List<IUser> Users { get; set; }
-		public IUser Owner { get; set; }
+		public List<Participante> Users { get; set; }
+		public Participante Owner { get; set; }
 		public string Name { get; set; }
 		public TimeSpan Duration { get; set; }
 
